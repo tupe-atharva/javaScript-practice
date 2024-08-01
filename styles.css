@@ -1,0 +1,19 @@
+/* .para{
+    background-color: red;
+    color:blue;
+}
+
+.new{
+    background-color: green;
+} */
+
+button{
+    background-color: blue;
+    color: white;
+    font-size: 20px;
+    height: 100px;
+    width: 100px;
+    margin-left: 300px;
+    border-radius: 30%;
+    border: 2px solid black;
+}
