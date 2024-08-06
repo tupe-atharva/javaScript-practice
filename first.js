@@ -322,12 +322,54 @@
 // })
 
 // currMode is simply a variable, change its value in both if and else blocks to execute the one that matches on next click
-let btn = document.querySelector("button")
-let hover = ()=>{
-    console.log("hovered over button");
-//    btn.style.display = "none";
-}
-btn.addEventListener("mouseover" , hover)
-// hello
+// let btn = document.querySelector("button")
+// let hover = ()=>{
+//     console.log("hovered over button");
+// //    btn.style.display = "none";
+// }
+// btn.addEventListener("mouseover" , hover)
+// // hello
+
+// --------------------------------------------------------------------------------------------------
+
+// Q. CREATE A CLASS - USERS WHICH HAS 2 PROPERTIES - NAME AND EMAIL AND A FUNCTION viewData()that allows users to view the data
+
+// class User {
+//     //constructor takes name and email as parameter
+//     constructor (name , email){
+//         this.name = name;
+//         this.email = email;
+//         console.log(`the name is ${name}`);
+//         console.log(`the email id is ${email}`);   
+//     }
+
+//     viewData(){
+//         console.log("this is the view data function");
+//     }
+// }
+
+// creating objs of the class User using the 'new' keyword
+
+// let student1 = new User("atharva" , "xyz@gmail.com");
+// let student2 = new User("aarya" , "abc@gmail.com");
+//student1 & student2 can access the function viewData written inside the class
+
+
+// Q. CREATE A NEW CLASS CALLED ADMIN WHICH INHERITS THE USER CLASS AND ADD A FUNCTION IN IT TO EDIT THE DATA
+
+// class admin extends User{
+//     constructor(phone){
+//         super("abc" , "abc" )
+//         this.phone = phone;
+//     }
+//     editData(){
+//         console.log("this function is used to edit the data");
+//     }
+// }
+
+// let admin1 = new admin( 123545)
+// admin1.editData()
+
+// --------------------------------------------------------------------------------------------------
 
 
